@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
+import Title from "../Shared/Title/Title";
 
 const About = () => {
     return (
-        <div>
-            <h2>This is About us</h2>
-        </div>
+        <>
+            <Title></Title>
+            <div>
+                <h2>This is About us</h2>
+            </div>
+        </>
     );
 };
 
